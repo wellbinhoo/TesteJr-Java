@@ -1,0 +1,26 @@
+package Interface;
+
+public interface car {
+
+	  
+	
+	public static void accelerate(int speed){
+		
+	
+		
+	}
+	
+    public static void desacelerar(int speed) {
+    	
+    	
+    }
+    
+    public static  int getCurrentSpeed() {
+    	
+    	
+    	
+    }
+
+	void accelerate();
+	
+}

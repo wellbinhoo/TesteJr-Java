@@ -1,0 +1,23 @@
+package Interface;
+
+public interface car {
+
+	  
+	
+	public default void accelerate(){
+		
+	
+		System.out.println("A velocidade do veiculo esta aumentando");
+	}
+	
+    public void desacelerar() {
+    	
+    	System.out.println("A velocidade do veiculo esta diminundo");
+    }
+    
+    public int getCurrentSpeed() {
+    	
+    	System.out.println("Esta é a velocidade atual do veiculo");
+    }
+	
+}

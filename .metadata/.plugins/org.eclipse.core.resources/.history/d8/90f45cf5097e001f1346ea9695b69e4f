@@ -1,0 +1,32 @@
+package convert;
+
+public class convert {
+	
+	
+
+	public static void main(String[] args) {
+		
+	 soma("1","2");
+		
+		
+		
+	}
+	
+	public static int soma (String value1, String value2) {
+		
+	
+		
+		try
+		{ int number = Integer.parseInt(value1);
+		
+		}
+		
+		catch(Exception erro) {
+			erro.printStackTrace();
+			
+		}
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Calc {
+	
+	public ArrayList<Integer> memory = new ArrayList();
+
+	public int som(int num1, int num2) {
+		int result = num1 +num2;
+		memory.add(result);
+		
+		
+		return result;
+	}
+public int subt(int num1,int num2) {
+	return num1 - num2;
+	
+}
+
+public int mult(int num1,int num2) {
+	return num1 * num2;
+}
+
+public int div(int num1 , int num2) {
+	return num1 /num2;
+	
+ }
+
+
+}
+

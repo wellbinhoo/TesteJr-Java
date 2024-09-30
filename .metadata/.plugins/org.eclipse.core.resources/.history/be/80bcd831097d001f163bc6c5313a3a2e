@@ -1,0 +1,29 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	int x = 1;
+	int y = 6;			
+	int z = calcular(x,y);
+			
+		System.out.println();
+		
+		
+	}
+	
+	public int calcular (int x , int y ){
+		int z;
+		
+		z = 0;
+		return  z;
+		
+		
+	}
+	
+
+}
+
+

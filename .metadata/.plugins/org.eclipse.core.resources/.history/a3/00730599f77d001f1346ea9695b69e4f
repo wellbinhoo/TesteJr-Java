@@ -1,0 +1,8 @@
+package Interface;
+
+public class veiculo implements car {
+
+	private int speed;
+	
+	
+}

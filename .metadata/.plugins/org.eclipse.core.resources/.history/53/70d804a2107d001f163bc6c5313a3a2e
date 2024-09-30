@@ -1,0 +1,47 @@
+package main;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		int[][] notas = {{3 , 2},
+						{150 , 3},
+						{7 , -1},
+						{-2 , 5},
+						{50, 3}};
+			
+		
+		for(int[] item:notas) {
+			int x = item[0];
+			int y = item[1];
+			int z = calcular(x , y);
+			String resultado = resultado(z);
+			
+			System.out.println("X: "+X+ "Y"+Y+"Z"+"RESULTADO"+);
+			}
+			
+			
+		}
+		
+	
+	
+	public static int calcular (int x , int y ){
+		int z;
+		
+		z = x * y + 5;
+		return  z;
+		
+		
+	}
+	
+	public static String resultado(int z){
+		
+		return z <= 0 ? "A" : z <= 100 ? "B" : "C";
+		
+	}
+
+}
+
+

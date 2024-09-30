@@ -1,0 +1,17 @@
+package Interface;
+
+public interface car {
+
+	  
+	
+	
+	
+    public void  desacelerar();
+
+	void accelerate(int speed); 
+    
+ 
+
+	
+	
+}

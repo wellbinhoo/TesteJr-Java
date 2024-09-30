@@ -1,0 +1,28 @@
+package main;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		int[][] notas = {{3 , 2},{150 , 3},{7 , -1},{-2 , 5},{50, 3}};
+			
+		
+		
+		
+	}
+	
+	public static int calcular (int x , int y ){
+		int z;
+		
+		z = x * y + 5;
+		return  z;
+		
+		
+	}
+	
+
+}
+
+

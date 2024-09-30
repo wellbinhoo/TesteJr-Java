@@ -1,0 +1,3 @@
+public void accelerate(int speed); // cada execução aumenta a velocidade em speed
+         public void break(int speed); // cada execução diminui a velocidade em speed
+         public int getCurrentSpeed(); // informa a velocidade atual

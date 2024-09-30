@@ -1,0 +1,11 @@
+package Interface;
+
+public class veiculo {
+
+	private int speed;
+	
+	private int getspeed() {
+		return speed;
+	}
+	
+}

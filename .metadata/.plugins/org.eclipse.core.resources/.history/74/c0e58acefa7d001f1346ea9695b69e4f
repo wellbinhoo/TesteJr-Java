@@ -1,0 +1,27 @@
+package Interface;
+
+public class veiculo implements car {
+
+	private int speed;
+
+	public int getSpeed() {
+		return speed;
+	}
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
+	@Override
+	public void accelerate(int speed){
+	this.speed = speed * 5;
+	}
+
+	@Override
+	public void desacelerar(int speed) {
+		this.speed = speed - 4;
+		
+		
+	}
+	
+  }

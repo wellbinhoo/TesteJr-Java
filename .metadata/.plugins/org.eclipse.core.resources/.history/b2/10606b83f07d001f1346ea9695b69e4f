@@ -1,0 +1,16 @@
+package Interface;
+
+public class veiculo {
+
+	private int acelerate;
+	private int desacelerate;
+	private int CurrentSpeed;
+	
+	public int getCurrentSpeed() {
+		return CurrentSpeed;
+	}
+	
+	public void setCurrentSpeed(int CurrentSpeed) {
+		this.CurrentSpeed = CurrentSpeed;
+	}
+}

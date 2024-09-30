@@ -1,0 +1,24 @@
+package alterador;
+
+public class alteradorDeString {
+
+	
+	public static void main(String[] args) {
+	
+		conversor("bom dia");
+		
+		System.out.println();
+	}
+	
+	public static String conversor ( String palavra1 ) {
+		
+		palavra1 = palavra1.trim();
+		palavra1 = palavra1.replaceAll("A", "B");
+		
+		
+		
+		
+		return  palavra1;
+	}
+
+}

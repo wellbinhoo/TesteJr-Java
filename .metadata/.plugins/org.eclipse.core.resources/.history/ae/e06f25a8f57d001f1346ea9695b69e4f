@@ -1,0 +1,15 @@
+package Interface;
+
+public class veiculo implements car {
+
+	private int speed;
+	
+	public int getspeed() {
+		return speed;
+		
+		
+	}
+	public int setspeed(int 1) {
+		return speed;
+	}
+}

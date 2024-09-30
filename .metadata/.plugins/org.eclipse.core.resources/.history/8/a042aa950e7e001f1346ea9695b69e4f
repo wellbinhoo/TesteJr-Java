@@ -1,0 +1,19 @@
+package alterador;
+
+public class alteradorDeString {
+
+	public static void main(String[] args) {
+	
+		
+
+	}
+	
+	public static String conversor ( String palavra1 ) {
+		
+		palavra1 = " bom dia ";
+		System.out.println(palavra1);
+		
+		return  "a";
+	}
+
+}

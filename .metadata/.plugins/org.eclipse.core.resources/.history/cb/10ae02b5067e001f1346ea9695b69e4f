@@ -1,0 +1,27 @@
+package convert;
+
+public class convert {
+
+	public static void main(String[] args) {
+		
+	
+		
+		
+		System.out.println("hello moleres");
+	}
+	
+	public static int convert (String value1, String value2) {
+		
+		
+		
+		try { int number = Integer.parseInt(value2);
+			
+		}
+		catch(Exception erro) {
+			
+		}
+		
+		return 1;
+	}
+
+}

@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Calc {
+
+	public int som(int num1, int num2) {
+		return num1 +num2;
+	}
+public int subt(int num1,int num2) {
+	return num1 - num2;
+	
+}
+
+public int mult(int num1,int num2) {
+	return num1 * num2;
+}
+
+public int div(int num1 , int num2) {
+	return num1 /num2;
+	
+ }
+}
+
+public static void main(String args[]) {
+	
+	Calc c = new Calc();
+	
+	int option = 5;
+	int num1; 
+	int num2;
+	
+	Scanner input = new Scanner(System.in);
+	
+	System.out.println("-Escolha uma opcao-");
+	
+	
+	
+	
+}

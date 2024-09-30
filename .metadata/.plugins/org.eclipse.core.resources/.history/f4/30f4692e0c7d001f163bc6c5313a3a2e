@@ -1,0 +1,30 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		ArrayList<int[]> cars = new ArrayList<int>()
+		
+	int x = 1;
+	int y = 6;			
+	int z = calcular(x,y);
+			
+		System.out.println(z);
+		
+		
+	}
+	
+	public static int calcular (int x , int y ){
+		int z;
+		
+		z = x * y + 5;
+		return  z;
+		
+		
+	}
+	
+
+}
+
+
