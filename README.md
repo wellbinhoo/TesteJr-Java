@@ -1,4 +1,4 @@
-## TESTE  ÁREA DE DESENVOLVIMENTO - A5 SOLUTIONS 
+## TESTE  ÁREA DE DESENVOLVIMENTO 
 
 Este projeto visa atender as demandas pertinentes ao que foi solicitado dentro das atividades programaticas  do teste de desenvolvedor JR A5 Solutions.
  Aproveito-me para agradecer a oportunidade de poder demonstrar minhas habilidades através deste teste  :)
